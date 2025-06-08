@@ -1,0 +1,83 @@
+/* App Container */
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home Page */
+.home-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.home-left {
+  max-width: 500px;
+  text-align: left;
+}
+
+.home-right .image-holder {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #007acc;
+  background-color: #30363d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-right .image-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* typewriter.css */
+.typewriter-text {
+  font-size: 2rem;
+  font-weight: bold;
+  min-height: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #58a6ff;
+}
+
+.cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.cv-download-btn {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cv-download-btn:hover {
+  background-color: white;
+}
