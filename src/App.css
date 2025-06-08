@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* themes.css */
+
+/* Theme: Light */
+.light {
+  --form-bg: #ffffff;
+  --input-bg: #f9fafb;
+  --input-text: #1e293b; /* Dark slate for better contrast */
+  --form-border: #cbd5e1;
+
+  background-color: #e6f0fa;
+  color: #111827;
+}
+
+.light nav {
+  border-bottom: 1px solid #d1d5db;
+  background: #c9dff4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.light nav a {
+  color: #334155;
+  font-weight: 500;
+}
+
+.light nav a.active {
+  color: #0ea5e9;
+  text-decoration: underline;
+}
+
+.light .project-card {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.light .toggle-btn {
+  background-color: #e2e8f0;
+  color: #111827;
+  border: 2px solid #334155;
+}
+
+.light .toggle-btn:hover {
+  background-color: #cbd5e1;
+}
+
+.light .contact-form input,
+.light .contact-form textarea {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  border-color: #cbd5e1;
+  font-weight: 500;
+}
+
+.light .contact-form input::placeholder,
+.light .contact-form textarea::placeholder {
+  color: #64748b; /* Better placeholder contrast */
+}
+
+.light .contact-form input:focus,
+.light .contact-form textarea:focus {
+  outline: none;
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2);
+}
+
+.light .contact-form button {
+  background-color: #0ea5e9;
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(14, 165, 233, 0.2);
+}
+
+.light .contact-form button:hover {
+  background-color: #0284c7;
+}
+
+/* Optional improvement: section subtitles or gray text */
+.light .subtext,
+.light .project-description,
+.light .about-para,
+.light .edu-year {
+  color: #475569; /* Cool dark gray-blue */
+}
+
+/* Theme: Dark */
+.dark {
+  --form-bg: #161b22;
+  --input-bg: #0d1117;
+  --input-text: #f0f0f0;
+  --form-border: #30363d;
+
+  background-color: #0d1117;
+  color: #f0f0f0;
+}
+
+.dark nav {
+  background-color: #161b22;
+  border-color: #30363d;
+}
+
+.dark nav a {
+  color: #c9d1d9;
+}
+
+.dark nav a.active {
+  color: #58a6ff;
+}
+
+.dark .project-card {
+  background-color: #161b22;
+  border-color: #30363d;
+}
+
+.dark .toggle-btn {
+  background-color: #161b22;
+  color: #f0f0f0;
+  border: 2px solid #f0f0f0;
+}
+
+.dark .toggle-btn:hover {
+  background-color: #30363d;
+}
+
+.dark .contact-form button {
+  background-color: #238636;
+  color: #ffffff;
+}
+
+.dark .contact-form button:hover {
+  background-color: #2ea043;
+}

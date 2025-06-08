@@ -1,0 +1,56 @@
+/* navbar.css */
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-left,
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+  color: #007acc;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  background-color: transparent;
+  color: inherit;
+  border: 2px solid currentColor;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
