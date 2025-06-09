@@ -1,5 +1,4 @@
-/* navbar.css */
-/* Navbar */
+/* Navbar Base */
 nav {
   position: fixed;
   top: 0;
@@ -9,8 +8,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: inherit;
+  background-color: var(--navbar-bg, #fff); /* Default with fallback */
   border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .nav-left,
@@ -18,11 +19,13 @@ nav ul {
   display: flex;
   gap: 2rem;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .nav-right {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 nav a {
@@ -30,6 +33,7 @@ nav a {
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
+  color: var(--nav-link-color, #000);
   transition: color 0.3s ease;
 }
 
@@ -39,7 +43,6 @@ nav a.active {
   color: #007acc;
 }
 
-/* Toggle Button */
 .toggle-btn {
   background-color: transparent;
   color: inherit;
@@ -53,4 +56,23 @@ nav a.active {
 
 .toggle-btn:hover {
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  .toggle-btn {
+    padding: 5px 10px;
+  }
 }

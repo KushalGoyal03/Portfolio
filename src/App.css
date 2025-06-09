@@ -1,3 +1,4 @@
+/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -6,20 +7,28 @@
 
 html,
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.app-container {
   font-family: "Segoe UI", sans-serif;
-  overflow: hidden;
-  height: 100vh;
+  overflow-x: hidden;
+  min-height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-/* themes.css */
-
-/* Theme: Light */
+/* === Theme: Light === */
 .light {
   --form-bg: #ffffff;
   --input-bg: #f9fafb;
-  --input-text: #1e293b; /* Dark slate for better contrast */
+  --input-text: #1e293b;
   --form-border: #cbd5e1;
 
   background-color: #e6f0fa;
@@ -42,12 +51,6 @@ body {
   text-decoration: underline;
 }
 
-.light .project-card {
-  background-color: #ffffff;
-  border-color: #e2e8f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-}
-
 .light .toggle-btn {
   background-color: #e2e8f0;
   color: #111827;
@@ -68,7 +71,7 @@ body {
 
 .light .contact-form input::placeholder,
 .light .contact-form textarea::placeholder {
-  color: #64748b; /* Better placeholder contrast */
+  color: #64748b;
 }
 
 .light .contact-form input:focus,
@@ -89,15 +92,14 @@ body {
   background-color: #0284c7;
 }
 
-/* Optional improvement: section subtitles or gray text */
 .light .subtext,
 .light .project-description,
 .light .about-para,
 .light .edu-year {
-  color: #475569; /* Cool dark gray-blue */
+  color: #475569;
 }
 
-/* Theme: Dark */
+/* === Theme: Dark === */
 .dark {
   --form-bg: #161b22;
   --input-bg: #0d1117;
@@ -121,11 +123,6 @@ body {
   color: #58a6ff;
 }
 
-.dark .project-card {
-  background-color: #161b22;
-  border-color: #30363d;
-}
-
 .dark .toggle-btn {
   background-color: #161b22;
   color: #f0f0f0;
@@ -143,4 +140,25 @@ body {
 
 .dark .contact-form button:hover {
   background-color: #2ea043;
+}
+
+/* === Media Queries: Mobile/Tablet === */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  nav .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
 }

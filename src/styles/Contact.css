@@ -21,17 +21,15 @@
 }
 
 .contact-box:hover {
-  background-color: var(--hover-bg);
+  background-color: var(
+    --hover-bg,
+    rgba(0, 122, 204, 0.1)
+  ); /* fallback added */
 }
 
 .contact-icon {
   font-size: 1.2rem;
   min-width: 24px;
-}
-
-.contact-form {
-  flex: 1;
-  min-width: 300px;
 }
 
 .contact-form {
@@ -86,15 +84,44 @@
   font-weight: 600;
 }
 
-/* Optional fade out animation */
+/* Fade-out animation for feedback */
 @keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
+  0%,
   80% {
     opacity: 1;
   }
   100% {
     opacity: 0;
+  }
+}
+
+/* === Mobile/Tablet Responsive === */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .contact-details,
+  .contact-form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 0.95rem;
+  }
+
+  .contact-box {
+    padding: 8px;
+  }
+
+  .contact-icon {
+    font-size: 1rem;
   }
 }
