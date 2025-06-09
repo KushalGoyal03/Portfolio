@@ -25,9 +25,23 @@ export default function About() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        I’m a Full Stack Developer passionate about crafting responsive,
-        user-friendly web applications. I'm eager to contribute to impactful
-        projects and constantly grow as a full-stack developer.
+        I'm Kushal Goyal, a dedicated and detail-oriented Full Stack Developer
+        with a strong foundation in computer science and a passion for building
+        scalable, responsive, and user-friendly web applications. I enjoy
+        solving real-world problems using technology and constantly seek to
+        expand my knowledge and skills in the evolving web ecosystem.
+        <br />
+        <br />
+        Currently pursuing my MCA from JIMS (GGSIPU), I have a solid academic
+        background with a B.Sc. (Hons.) in Computer Science from Delhi
+        University. I'm experienced in developing full-stack applications using
+        the MERN stack (MongoDB, Express.js, React.js, Node.js) along with core
+        programming languages like Java and Python.
+        <br />
+        <br />
+        My goal is to contribute to innovative projects that make a meaningful
+        impact, work with collaborative teams, and continuously grow as a
+        developer.
       </motion.p>
 
       <motion.div

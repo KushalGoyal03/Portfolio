@@ -51,6 +51,12 @@ body {
   text-decoration: underline;
 }
 
+.light .project-card {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
 .light .toggle-btn {
   background-color: #e2e8f0;
   color: #111827;
@@ -95,7 +101,8 @@ body {
 .light .subtext,
 .light .project-description,
 .light .about-para,
-.light .edu-year {
+.light .edu-year,
+.light .skills-grid {
   color: #475569;
 }
 
@@ -133,9 +140,18 @@ body {
   background-color: #30363d;
 }
 
+.dark .project-card {
+  background-color: #161b22;
+  border-color: #30363d;
+}
+
 .dark .contact-form button {
   background-color: #238636;
   color: #ffffff;
+}
+
+.dark .skills-grid p {
+  color: #c9dff4;
 }
 
 .dark .contact-form button:hover {

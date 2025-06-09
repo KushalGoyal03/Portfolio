@@ -46,7 +46,20 @@ const Home = () => {
           <span className="cursor">|</span>
         </div>
         <div className="subtext">
-          Passionate developer crafting modern and scalable web applications.
+          <p>Hello and welcome! 👋</p>
+          <p>
+            I'm a passionate <strong>Full Stack Developer</strong> with
+            experience in building dynamic and responsive web applications.
+          </p>
+          <p>
+            I specialize in the <strong>MERN stack</strong> — MongoDB,
+            Express.js, React.js, and Node.js — along with HTML, CSS, and
+            JavaScript.
+          </p>
+          <p>
+            I love creating clean, efficient, and user-centric applications.
+          </p>
+          <p>Let’s build something amazing together. 🚀</p>
         </div>
         <a href="/CV_Kushal_Goyal.pdf" download className="cv-download-btn">
           Download CV
