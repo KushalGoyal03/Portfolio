@@ -34,9 +34,15 @@ export default function About() {
         <br />
         Currently pursuing my MCA from JIMS (GGSIPU), I have a solid academic
         background with a B.Sc. (Hons.) in Computer Science from Delhi
-        University. I'm experienced in developing full-stack applications using
-        the MERN stack (MongoDB, Express.js, React.js, Node.js) along with core
-        programming languages like Java and Python.
+        University. Full Stack Developer with practical experience in building
+        full-stack web applications that are responsive, user-friendly, and
+        scalable. Skilled in developing real-time features, integrating APIs,
+        and writing clean, maintainable code. Strong understanding of modern
+        JavaScript technologies and a passion for solving problems through
+        efficient solutions. Experienced in deploying applications using
+        platforms like Netlify, Render, and MongoDB Atlas. Committed to
+        contributing to meaningful tech projects and continuously growing as a
+        full-stack developer.
         <br />
         <br />
         My goal is to contribute to innovative projects that make a meaningful
@@ -75,19 +81,23 @@ export default function About() {
         <div className="skills-grid">
           <div>
             <strong>Languages:</strong>
-            <p>HTML, CSS, JavaScript, Java, Python</p>
+            <p>HTML5, CSS3, JavaScript, Java, Python</p>
           </div>
           <div>
-            <strong>Technologies:</strong>
-            <p>React.js, Node.js, Express.js</p>
+            <strong>Web Technologies:</strong>
+            <p>React.js, Node.js, Express.js, RESTful APIs</p>
           </div>
           <div>
             <strong>Databases:</strong>
             <p>MongoDB, Chrome Local Storage</p>
           </div>
           <div>
-            <strong>Tools:</strong>
-            <p>Git, GitHub, VS Code</p>
+            <strong>Tools & Platforms:</strong>
+            <p>Git, GitHub, VS Code, Postman</p>
+          </div>
+          <div>
+            <strong>Deployment: </strong>
+            <p>Netlify, Render, MongoDB Atlas</p>
           </div>
         </div>
       </motion.div>

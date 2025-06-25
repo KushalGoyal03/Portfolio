@@ -5,11 +5,18 @@ import "../styles/Projects.css";
 export default function Projects() {
   const projectList = [
     {
-      title: "ChatSphere",
+      title: "KnowMyRights",
       description:
-        "A real-time chat application with private messaging, custom chat names, and 'seen' status using the MERN stack.",
-      tech: ["React + Vite", "Node.js", "Express", "MongoDB", "Socket.io"],
-      github: "https://github.com/KushalGoyal03/ChatSphere",
+        "A Full-stack legal awareness platform using React, Express.js, and MongoDB, combining dynamic GPT-based legal Q&A with structured, database-driven rights summaries.",
+      tech: ["React + Vite", "Node.js", "Express", "MongoDB", "GPT"],
+      live: "https://know-my-rights.netlify.app/",
+    },
+    {
+      title: "ChatRealm",
+      description:
+        "A clean and modular real time chat platform using React, Express.js, and MongoDB, featuring secure user authentication and protected routes.",
+      tech: ["React + Vite", "Node.js", "Express", "MongoDB"],
+      live: "https://chatrealm.netlify.app/home",
     },
     {
       title: "Job Portal",
