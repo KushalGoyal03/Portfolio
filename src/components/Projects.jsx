@@ -7,14 +7,14 @@ export default function Projects() {
     {
       title: "KnowMyRights",
       description:
-        "A Full-stack legal awareness platform using React, Express.js, and MongoDB, combining dynamic GPT-based legal Q&A with structured, database-driven rights summaries.",
+        "Developed a full-stack legal web application that helps users understand their rights through a GPT-powered chatbot, searchable legal summaries, and auto-updated local law insights. Focused on accessibility, responsive UI, and official source integration.",
       tech: ["React + Vite", "Node.js", "Express", "MongoDB", "GPT"],
       live: "https://know-my-rights.netlify.app/",
     },
     {
       title: "ChatRealm",
       description:
-        "A clean and modular real time chat platform using React, Express.js, and MongoDB, featuring secure user authentication and protected routes.",
+        "Built a scalable real-time chat platform using React and Node.js with user authentication, message storage, and clean UI/UX. Designed to simulate a modern messaging experience with optimized backend performance.",
       tech: ["React + Vite", "Node.js", "Express", "MongoDB"],
       live: "https://chatrealm.netlify.app/home",
     },
