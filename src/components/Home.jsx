@@ -61,7 +61,7 @@ const Home = () => {
           </p>
           <p>Let’s build something amazing together. 🚀</p>
         </div>
-        <a href="/Kushal Goyal_Resume.pdf" download className="cv-download-btn">
+        <a href="/Kushal_Goyal_Resume.pdf" download className="cv-download-btn">
           Download CV
         </a>
       </motion.div>
