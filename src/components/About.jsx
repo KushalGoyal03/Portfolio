@@ -80,20 +80,20 @@ export default function About() {
         <h3>🛠️ Skills</h3>
         <div className="skills-grid">
           <div>
-            <strong>Languages:</strong>
-            <p>HTML5, CSS3, JavaScript, Java, Python</p>
+            <strong>Programming languages:</strong>
+            <p>Java, Python, JavaScript</p>
           </div>
           <div>
-            <strong>Web Technologies:</strong>
-            <p>React.js, Node.js, Express.js, RESTful APIs</p>
+            <strong>Technologies/Frameworks</strong>
+            <p>HTML5, CSS3, React.js, Node.js, Express.js</p>
           </div>
           <div>
-            <strong>Databases:</strong>
-            <p>MongoDB, Chrome Local Storage</p>
+            <strong>Databases & APIs</strong>
+            <p>MongoDB, RESTful APIs</p>
           </div>
           <div>
             <strong>Tools & Platforms:</strong>
-            <p>Git, GitHub, VS Code, Postman</p>
+            <p>Git, GitHub, VS Code, Postman, IntelliJ</p>
           </div>
           <div>
             <strong>Deployment: </strong>

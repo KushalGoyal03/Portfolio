@@ -48,13 +48,13 @@ const Home = () => {
         <div className="subtext">
           <p>Hello and welcome! 👋</p>
           <p>
-            I'm a passionate <strong>Full Stack Developer</strong> with
-            experience in building dynamic and responsive web applications.
-          </p>
-          <p>
-            I specialize in the <strong>MERN stack</strong> — MongoDB,
-            Express.js, React.js, and Node.js — along with HTML, CSS, and
-            JavaScript.
+            I'm a passionate <strong>Full Stack Developer</strong> with hands-on
+            experience in building responsive, scalable web applications.
+            Skilled in API integration, and clean, maintainable code. Proficient
+            in modern JavaScript technologies with deployment experience on
+            Netlify, Render, and MongoDB Atlas. Quick learner, effective
+            communicator, and collaborative team player with a passion for
+            writing high-quality code.
           </p>
           <p>
             I love creating clean, efficient, and user-centric applications.
