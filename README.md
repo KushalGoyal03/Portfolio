@@ -1,12 +1,27 @@
-# React + Vite
+# 🌐 Kushal Goyal — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This website showcases who I am, what I build, and how I solve problems using code. It's a reflection of my journey as a **Full-Stack Developer** with a passion for impactful, user-focused projects.
 
-Currently, two official plugins are available:
+🔗 **Live Site**: https://kushalgoyal-portfolio.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧑‍💻 **About Me Section**  
+  Brief introduction with a focus on my skills, passions, and experience in development.
+
+- 💼 **Projects Showcase**  
+  Handpicked real-world projects (like *KnowMyRights* and *ChatRealm*) with descriptions, tech stacks, and live/demo links.
+
+- 🛠️ **Tech Stack Visuals**  
+  Logos and icons to represent tools and languages I use (React, Node.js, MongoDB, Java, Git, etc.).
+
+- ✉️ **Contact Form**  
+  Fully functional contact form with email integration, allowing visitors to reach out directly.
+
+- 🌗 **Modern, Responsive UI**  
+  Designed with Tailwind CSS and fully optimized for all screen sizes and devices.
+
+- 🌟 **Smooth Animations & Effects**  
+  Subtle transitions and hover effects for a clean, interactive experience.
